@@ -91,9 +91,16 @@
    - открыть https://codebattle.hexlet.io/
    - нажать f12,зайти в DevTools
    - нажать toggle Device toolbar
-   - в строке Dimensions:Responsive выбрать параметры:iPhone XR,Samsung Galaxy S8+,Nest Hub
+   - в строке Dimensions:Responsive выбрать параметры:iPhone XR
+   - нажать кнопку create a game
+   - в графе Level выбрать первое значение
+   - в графе Game Type выбрать With other users
+   - в графе Time control установить значение 8 min
+   - в графе Choose task by name or tags выбрать rect_area
+   - в графе Tags выбрать match 
+   - нажать кнопку create battle
   expected-result: |
-   пользователь должен зайти на страницу адаптированную к разным устройствам
+   пользователь должен зайти в игру адаптированную к мобильным устройствам
    
 - summary: |
    проверка веб сайта при остутствии соединения
